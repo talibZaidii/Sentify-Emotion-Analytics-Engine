@@ -1,0 +1,14 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit config and caches
+.streamlit/
+
+# Large Model files (Optional: omit if your pkl files are < 50MB and you want to push them anyway)
+# *.pkl
