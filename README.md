@@ -1,14 +1,48 @@
-# 🎭 Sentify: Emotion Analytics Engine
+# 🎭 Sentify – Emotion Analytics Engine
 
-A clean, minimalist Streamlit web application that uses a machine learning pipeline (`Scikit-Learn` Logistic Regression) to analyze text and predict human emotions.
+Built and deployed an end-to-end NLP application that analyzes and predicts human emotions from text using machine learning classification models.
 
-## 🚀 Features
-* **Real-time Prediction:** Classifies text into Joy, Sadness, Anger, Fear, Love, or Surprise.
-* **Confidence Visualizer:** Displays interactive probability distribution maps across classes.
-* **Pre-processed Vectors:** Features a robust NLTK stopword cleaning mechanism.
+---
 
-## 🛠️ Installation & Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git)
-   cd YOUR-REPOSITORY-NAME
+## 📸 Demo
+
+![App Demo](assets/demo.png)
+
+---
+
+## 🧠 What it does
+
+Enter a sentence and the model predicts the underlying emotion in real time through a Streamlit web app.
+
+---
+
+## ⚙️ Key Features
+
+• Cleaned and preprocessed raw text using NLP techniques (noise removal, stop-word filtering, normalization)  
+• Converted text into numerical features using TF-IDF vectorization  
+• Trained multiple Scikit-learn classification models and compared performance  
+• Selected the best-performing model for deployment  
+• Saved pipeline using Joblib for fast inference  
+• Built an interactive Streamlit UI for real-time predictions  
+
+---
+
+## 🧪 Model Workflow
+
+
+Input Text → Preprocessing → TF-IDF Vectorization → ML Model → Prediction
+
+
+---
+
+## 🛠️ Tech Stack
+
+Python · Pandas · NumPy · Scikit-learn · NLP (TF-IDF) · Streamlit · Joblib
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
