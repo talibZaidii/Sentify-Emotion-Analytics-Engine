@@ -6,7 +6,7 @@ Built and deployed an end-to-end NLP application that analyzes and predicts huma
 
 ## 📸 Demo
 
-![App Demo](assets/demo.png)
+![App Demo](assets/demo.jpg)
 
 ---
 
