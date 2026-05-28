@@ -1,4 +1,4 @@
-# 🎭 Sentify – Emotion Analytics Engine
+# Sentify: End-to-End Emotion Analytics
 
 Built and deployed an end-to-end NLP application that analyzes and predicts human emotions from text using machine learning classification models.
 
